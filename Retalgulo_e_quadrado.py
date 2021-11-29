@@ -34,7 +34,6 @@ class Square(Rectangle):
     def __init__(self, side):
         self.height = side
         self.width = side
-        self.form = 'Square'
 
     def set_width(self, width):
         self.width = width
